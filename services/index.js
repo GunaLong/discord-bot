@@ -9,7 +9,7 @@ const channelMessage = require("./channels");
 
 function botMessages(message) {
   // eslint-disable-next-line no-console
-  console.log(message.threads);
+
   console.log(
     `「${message.channel.name}」${message.author.username}：${message.content} `
   );
