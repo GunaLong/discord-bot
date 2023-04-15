@@ -9,7 +9,7 @@ const openAI = new OpenAIApi(configuration);
 async function openAiMessage(prompt) {
   try {
     const { data } = await openAI.createCompletion({
-      model: "code-davinci-002",
+      model: "text-davinci-003",
       prompt,
       max_tokens: 300,
     });
